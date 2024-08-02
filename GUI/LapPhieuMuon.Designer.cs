@@ -405,6 +405,7 @@
             Controls.Add(groupBox1);
             Name = "LapPhieuMuon";
             Size = new Size(1705, 887);
+            Load += LapPhieuMuon_Load;
             ((System.ComponentModel.ISupportInitialize)dgvPhieuChitiet).EndInit();
             groupBox4.ResumeLayout(false);
             groupBox4.PerformLayout();

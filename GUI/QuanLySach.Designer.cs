@@ -443,6 +443,7 @@
             Controls.Add(groupBox2);
             Name = "QuanLySach";
             Size = new Size(1562, 777);
+            Load += QuanLySach_Load;
             ((System.ComponentModel.ISupportInitialize)dgvquanlynv).EndInit();
             groupBox3.ResumeLayout(false);
             groupBox3.PerformLayout();
