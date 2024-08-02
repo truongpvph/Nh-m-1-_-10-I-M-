@@ -25,3 +25,31 @@ D:\DuAnNhom1-SD19315\Nhom1-SD19315\GUI\obj\Debug\net8.0-windows\GUI.QuanLyTacGia
 D:\DuAnNhom1-SD19315\Nhom1-SD19315\GUI\obj\Debug\net8.0-windows\GUI.QuanLyTaiKhoan.resources
 D:\DuAnNhom1-SD19315\Nhom1-SD19315\GUI\obj\Debug\net8.0-windows\GUI.QuanLyTheLoai.resources
 D:\DuAnNhom1-SD19315\Nhom1-SD19315\GUI\obj\Debug\net8.0-windows\GUI.FormSoLuong.resources
+C:\Users\MSI\OneDrive\Máy tính\w\Nh-m-1-_-10-I-M-\GUI\bin\Debug\net8.0-windows\GUI.exe
+C:\Users\MSI\OneDrive\Máy tính\w\Nh-m-1-_-10-I-M-\GUI\bin\Debug\net8.0-windows\GUI.deps.json
+C:\Users\MSI\OneDrive\Máy tính\w\Nh-m-1-_-10-I-M-\GUI\bin\Debug\net8.0-windows\GUI.runtimeconfig.json
+C:\Users\MSI\OneDrive\Máy tính\w\Nh-m-1-_-10-I-M-\GUI\bin\Debug\net8.0-windows\GUI.dll
+C:\Users\MSI\OneDrive\Máy tính\w\Nh-m-1-_-10-I-M-\GUI\bin\Debug\net8.0-windows\GUI.pdb
+C:\Users\MSI\OneDrive\Máy tính\w\Nh-m-1-_-10-I-M-\GUI\obj\Debug\net8.0-windows\GUI.ChiTietMuon_Tra.resources
+C:\Users\MSI\OneDrive\Máy tính\w\Nh-m-1-_-10-I-M-\GUI\obj\Debug\net8.0-windows\GUI.DanhNhap.resources
+C:\Users\MSI\OneDrive\Máy tính\w\Nh-m-1-_-10-I-M-\GUI\obj\Debug\net8.0-windows\GUI.FormSoLuong.resources
+C:\Users\MSI\OneDrive\Máy tính\w\Nh-m-1-_-10-I-M-\GUI\obj\Debug\net8.0-windows\GUI.GiaoDien.resources
+C:\Users\MSI\OneDrive\Máy tính\w\Nh-m-1-_-10-I-M-\GUI\obj\Debug\net8.0-windows\GUI.LapPhieuMuon.resources
+C:\Users\MSI\OneDrive\Máy tính\w\Nh-m-1-_-10-I-M-\GUI\obj\Debug\net8.0-windows\GUI.Properties.Resources.resources
+C:\Users\MSI\OneDrive\Máy tính\w\Nh-m-1-_-10-I-M-\GUI\obj\Debug\net8.0-windows\GUI.QuanLyDocGia.resources
+C:\Users\MSI\OneDrive\Máy tính\w\Nh-m-1-_-10-I-M-\GUI\obj\Debug\net8.0-windows\GUI.QuanLyNhaXuatBan.resources
+C:\Users\MSI\OneDrive\Máy tính\w\Nh-m-1-_-10-I-M-\GUI\obj\Debug\net8.0-windows\GUI.QuanLySach.resources
+C:\Users\MSI\OneDrive\Máy tính\w\Nh-m-1-_-10-I-M-\GUI\obj\Debug\net8.0-windows\GUI.QuanLyTacGia.resources
+C:\Users\MSI\OneDrive\Máy tính\w\Nh-m-1-_-10-I-M-\GUI\obj\Debug\net8.0-windows\GUI.QuanLyTaiKhoan.resources
+C:\Users\MSI\OneDrive\Máy tính\w\Nh-m-1-_-10-I-M-\GUI\obj\Debug\net8.0-windows\GUI.QuanLyTheLoai.resources
+C:\Users\MSI\OneDrive\Máy tính\w\Nh-m-1-_-10-I-M-\GUI\obj\Debug\net8.0-windows\GUI.csproj.GenerateResource.cache
+C:\Users\MSI\OneDrive\Máy tính\w\Nh-m-1-_-10-I-M-\GUI\obj\Debug\net8.0-windows\GUI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MSI\OneDrive\Máy tính\w\Nh-m-1-_-10-I-M-\GUI\obj\Debug\net8.0-windows\GUI.AssemblyInfoInputs.cache
+C:\Users\MSI\OneDrive\Máy tính\w\Nh-m-1-_-10-I-M-\GUI\obj\Debug\net8.0-windows\GUI.AssemblyInfo.cs
+C:\Users\MSI\OneDrive\Máy tính\w\Nh-m-1-_-10-I-M-\GUI\obj\Debug\net8.0-windows\GUI.csproj.CoreCompileInputs.cache
+C:\Users\MSI\OneDrive\Máy tính\w\Nh-m-1-_-10-I-M-\GUI\obj\Debug\net8.0-windows\GUI.sourcelink.json
+C:\Users\MSI\OneDrive\Máy tính\w\Nh-m-1-_-10-I-M-\GUI\obj\Debug\net8.0-windows\GUI.dll
+C:\Users\MSI\OneDrive\Máy tính\w\Nh-m-1-_-10-I-M-\GUI\obj\Debug\net8.0-windows\refint\GUI.dll
+C:\Users\MSI\OneDrive\Máy tính\w\Nh-m-1-_-10-I-M-\GUI\obj\Debug\net8.0-windows\GUI.pdb
+C:\Users\MSI\OneDrive\Máy tính\w\Nh-m-1-_-10-I-M-\GUI\obj\Debug\net8.0-windows\GUI.genruntimeconfig.cache
+C:\Users\MSI\OneDrive\Máy tính\w\Nh-m-1-_-10-I-M-\GUI\obj\Debug\net8.0-windows\ref\GUI.dll

@@ -62,18 +62,24 @@
             label3 = new Label();
             groupBox1 = new GroupBox();
             label5 = new Label();
+            groupBox5 = new GroupBox();
+            label13 = new Label();
+            lblquahan = new Label();
+            dtgView11 = new DataGridView();
             groupBox3.SuspendLayout();
             groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             groupBox4.SuspendLayout();
             groupBox1.SuspendLayout();
+            groupBox5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dtgView11).BeginInit();
             SuspendLayout();
             // 
             // txtTimKiem
             // 
-            txtTimKiem.Location = new Point(158, 40);
+            txtTimKiem.Location = new Point(108, 40);
             txtTimKiem.Name = "txtTimKiem";
-            txtTimKiem.Size = new Size(610, 27);
+            txtTimKiem.Size = new Size(503, 27);
             txtTimKiem.TabIndex = 110;
             // 
             // label10
@@ -117,9 +123,9 @@
             groupBox2.Controls.Add(dataGridView1);
             groupBox2.Controls.Add(txtTimKiem);
             groupBox2.Controls.Add(label8);
-            groupBox2.Location = new Point(738, 299);
+            groupBox2.Location = new Point(637, 299);
             groupBox2.Name = "groupBox2";
-            groupBox2.Size = new Size(905, 497);
+            groupBox2.Size = new Size(621, 497);
             groupBox2.TabIndex = 102;
             groupBox2.TabStop = false;
             groupBox2.Text = "Danh Sách Mượn -Trả";
@@ -130,7 +136,7 @@
             dataGridView1.Location = new Point(12, 89);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.Size = new Size(887, 402);
+            dataGridView1.Size = new Size(599, 402);
             dataGridView1.TabIndex = 127;
             // 
             // label8
@@ -138,7 +144,7 @@
             label8.AutoSize = true;
             label8.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             label8.ForeColor = Color.FromArgb(64, 0, 0);
-            label8.Location = new Point(52, 43);
+            label8.Location = new Point(12, 43);
             label8.Name = "label8";
             label8.Size = new Size(80, 20);
             label8.TabIndex = 109;
@@ -148,7 +154,7 @@
             // 
             txtsoluong.Location = new Point(138, 251);
             txtsoluong.Name = "txtsoluong";
-            txtsoluong.Size = new Size(471, 27);
+            txtsoluong.Size = new Size(457, 27);
             txtsoluong.TabIndex = 119;
             // 
             // label9
@@ -194,9 +200,9 @@
             groupBox4.Controls.Add(labtongmuon);
             groupBox4.Controls.Add(label12);
             groupBox4.Controls.Add(label11);
-            groupBox4.Location = new Point(737, 173);
+            groupBox4.Location = new Point(636, 168);
             groupBox4.Name = "groupBox4";
-            groupBox4.Size = new Size(906, 125);
+            groupBox4.Size = new Size(622, 125);
             groupBox4.TabIndex = 103;
             groupBox4.TabStop = false;
             groupBox4.Text = "Thống Kê";
@@ -282,6 +288,7 @@
             btnhienthi.TabIndex = 111;
             btnhienthi.Text = "Hiển Thị";
             btnhienthi.UseVisualStyleBackColor = false;
+            btnhienthi.Click += btnhienthi_Click;
             // 
             // btnsua
             // 
@@ -293,6 +300,7 @@
             btnsua.TabIndex = 106;
             btnsua.Text = "Sửa";
             btnsua.UseVisualStyleBackColor = false;
+            btnsua.Click += btnsua_Click;
             // 
             // btnthem
             // 
@@ -398,7 +406,7 @@
             groupBox1.Controls.Add(label1);
             groupBox1.Location = new Point(15, 167);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(676, 629);
+            groupBox1.Size = new Size(615, 629);
             groupBox1.TabIndex = 101;
             groupBox1.TabStop = false;
             groupBox1.Text = "Thông Tin Mượn - Trả ";
@@ -413,16 +421,56 @@
             label5.TabIndex = 123;
             label5.Text = "Quản Lý Mượn Trả ";
             // 
+            // groupBox5
+            // 
+            groupBox5.Controls.Add(dtgView11);
+            groupBox5.Controls.Add(lblquahan);
+            groupBox5.Controls.Add(label13);
+            groupBox5.Location = new Point(1264, 168);
+            groupBox5.Name = "groupBox5";
+            groupBox5.Size = new Size(422, 628);
+            groupBox5.TabIndex = 124;
+            groupBox5.TabStop = false;
+            groupBox5.Text = "Mượn quá hạn";
+            // 
+            // label13
+            // 
+            label13.AutoSize = true;
+            label13.Location = new Point(29, 77);
+            label13.Name = "label13";
+            label13.Size = new Size(126, 20);
+            label13.TabIndex = 4;
+            label13.Text = "Tổng Phiếu Mượn";
+            // 
+            // lblquahan
+            // 
+            lblquahan.AutoSize = true;
+            lblquahan.Location = new Point(222, 77);
+            lblquahan.Name = "lblquahan";
+            lblquahan.Size = new Size(17, 20);
+            lblquahan.TabIndex = 4;
+            lblquahan.Text = "0";
+            // 
+            // dtgView11
+            // 
+            dtgView11.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dtgView11.Location = new Point(6, 220);
+            dtgView11.Name = "dtgView11";
+            dtgView11.RowHeadersWidth = 51;
+            dtgView11.Size = new Size(410, 402);
+            dtgView11.TabIndex = 128;
+            // 
             // ChiTietMuon_Tra
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            Controls.Add(groupBox5);
             Controls.Add(label5);
             Controls.Add(groupBox2);
             Controls.Add(groupBox4);
             Controls.Add(groupBox1);
             Name = "ChiTietMuon_Tra";
-            Size = new Size(1675, 810);
+            Size = new Size(1689, 810);
             groupBox3.ResumeLayout(false);
             groupBox3.PerformLayout();
             groupBox2.ResumeLayout(false);
@@ -432,6 +480,9 @@
             groupBox4.PerformLayout();
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
+            groupBox5.ResumeLayout(false);
+            groupBox5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)dtgView11).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -472,5 +523,9 @@
         private Label label3;
         private GroupBox groupBox1;
         private Label label5;
+        private GroupBox groupBox5;
+        private DataGridView dtgView11;
+        private Label lblquahan;
+        private Label label13;
     }
 }
