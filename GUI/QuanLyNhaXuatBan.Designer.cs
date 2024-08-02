@@ -62,6 +62,7 @@
             btnhienthi.TabIndex = 150;
             btnhienthi.Text = "Hiển Thị";
             btnhienthi.UseVisualStyleBackColor = false;
+            btnhienthi.Click += btnhienthi_Click;
             // 
             // btnsua
             // 
@@ -73,6 +74,7 @@
             btnsua.TabIndex = 148;
             btnsua.Text = "Sửa";
             btnsua.UseVisualStyleBackColor = false;
+            btnsua.Click += btnsua_Click;
             // 
             // btnthem
             // 
@@ -84,6 +86,7 @@
             btnthem.TabIndex = 147;
             btnthem.Text = "Thêm";
             btnthem.UseVisualStyleBackColor = false;
+            btnthem.Click += btnthem_Click;
             // 
             // txtemail
             // 
@@ -178,6 +181,7 @@
             dataGridView1.RowHeadersWidth = 51;
             dataGridView1.Size = new Size(727, 486);
             dataGridView1.TabIndex = 129;
+            dataGridView1.CellClick += dataGridView1_CellClick;
             // 
             // groupBox1
             // 
@@ -198,6 +202,7 @@
             txtTimKiem.PlaceholderText = "Tìm Kiếm Theo Nhà Xuất Bản ";
             txtTimKiem.Size = new Size(401, 27);
             txtTimKiem.TabIndex = 128;
+            txtTimKiem.TextChanged += txtTimKiem_TextChanged;
             // 
             // label8
             // 

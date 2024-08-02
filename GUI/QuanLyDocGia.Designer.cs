@@ -76,6 +76,7 @@
             btnhienthi.TabIndex = 127;
             btnhienthi.Text = "Hiển Thị";
             btnhienthi.UseVisualStyleBackColor = false;
+            btnhienthi.Click += btnhienthi_Click;
             // 
             // btnsua
             // 
@@ -87,6 +88,7 @@
             btnsua.TabIndex = 125;
             btnsua.Text = "Sửa";
             btnsua.UseVisualStyleBackColor = false;
+            btnsua.Click += btnsua_Click;
             // 
             // btnthem
             // 
@@ -98,6 +100,7 @@
             btnthem.TabIndex = 124;
             btnthem.Text = "Thêm";
             btnthem.UseVisualStyleBackColor = false;
+            btnthem.Click += btnthem_Click;
             // 
             // txtSoDienThoai
             // 
@@ -170,6 +173,7 @@
             dataGridView1.RowHeadersWidth = 51;
             dataGridView1.Size = new Size(755, 486);
             dataGridView1.TabIndex = 126;
+            dataGridView1.CellClick += dataGridView1_CellClick;
             // 
             // txtTimKiem
             // 
@@ -178,6 +182,7 @@
             txtTimKiem.PlaceholderText = "Tìm Kiếm Theo Tên Độc Giả ";
             txtTimKiem.Size = new Size(551, 27);
             txtTimKiem.TabIndex = 125;
+            txtTimKiem.TextChanged += txtTimKiem_TextChanged;
             // 
             // label8
             // 

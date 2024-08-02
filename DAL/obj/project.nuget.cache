@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "IObJBRSrOwHE0JW0+cjjYlSPzih6ATovgj9hrT0fiW+6joL3HjjRo5sW5dco2G8FJXe5Jjjay8Dilb0xR8Df+w==",
+  "dgSpecHash": "4uHQGRty0jLR5q50Jgd1VjFYGCCgc7tv3bAG8RL+ohlSzGwx1B9j6sgC8Ttn514/TuMYD7ChOXGrndBQeZ9u+g==",
   "success": true,
-  "projectFilePath": "D:\\DuAnNhom1-SD19315\\Nhom1-SD19315\\DAL\\DAL.csproj",
+  "projectFilePath": "D:\\DuAn1_Last\\Nh-m-1-_-10-I-M-\\DAL\\DAL.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file D:\\DuAn1_Last\\Nh-m-1-_-10-I-M-\\DAL\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
